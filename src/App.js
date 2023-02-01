@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div className="App">
-      <h2>Image Carousel</h2>
+      <h1>Image Carousel</h1>
       <div className="slider" >
         <div className="left-arrow" onClick={prevSlide}>
         ⬅

@@ -2,26 +2,33 @@
   text-align: center;
 }
 body{
-  background-color: antiquewhite;
+  background-color:cornsilk;
 }
 
 
-h2{
- color: brown;   
+h1{
+ color: brown; 
+ font-family:cursive;  
 }
 
 .slider{
   display:inline-flex;
+  vertical-align: middle;
   
 }
 
 .slide{ 
-  margin: 8em;
+  border-style: inset;
+  border-width: 10px;
+  border-color:brown;
+  margin: 5em;
 }
 
 .left-arrow,.right-arrow{
   font-size:xx-large;
-  
+  cursor: pointer;
+  color: brown;
+  text-align: center;
 }
 
 
