@@ -1,34 +1,42 @@
 .App {
   text-align: center;
 }
-body{
-  background-color:cornsilk;
+body {
+  background-color: cornsilk;
 }
 
-
-h1{
- color: brown; 
- font-family:cursive;  
-}
-
-.slider{
-  display:inline-flex;
-  vertical-align: middle;
-  
-}
-
-.slide{ 
-  border-style: inset;
-  border-width: 10px;
-  border-color:brown;
-  margin: 5em;
-}
-
-.left-arrow,.right-arrow{
-  font-size:xx-large;
-  cursor: pointer;
+h1 {
   color: brown;
-  text-align: center;
+  font-family: cursive;
 }
 
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.slide {
+  border-style:inset;
+  border-width: 10px;
+  border-color: brown;
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-top: 1em;
+}
+img {
+  width: 600px;
+  height: 650px;
+}
+
+.left-arrow,
+.right-arrow {
+  font-size: xx-large;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  background: brown;
+  border-radius: 999px;
+  padding: 4px 8px;
+  user-select: none;
+}

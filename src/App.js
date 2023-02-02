@@ -37,12 +37,12 @@ function App() {
             (image,index) =>
             current === index && (
               <div key={index} className="slide">
-              <img src = {image} height="450px" width="500px" alt="carousel-images"/>
+              <img src = {image}  alt="carousel-images"/>
               </div>
             )
           )
         }
-        <div className="right-arrow" onClick={prevSlide}>
+        <div className="right-arrow" onClick={nextSlide}>
         ⮕
         </div>
 
